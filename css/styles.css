@@ -1,0 +1,144 @@
+body {
+	font-size: 16px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+header {
+	background-color: #8c8281;
+}
+
+#header-nav {
+	border-width: 2px;
+	border-color: black;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.navbar-light {
+	border-color: black;
+	border-width: 2px;
+}
+
+.navbar-toggle, .icon-bar {
+    background-color: #8c8281;
+    border: 1px solid black;
+}
+
+.container-fluid {
+	margin: auto;
+}
+
+.text-center {
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#ourmenu {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+#submenu1, #submenu2, #submenu3 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.box {
+	padding: 20px;
+	background-color: #8c8281;
+}
+
+.navbar-collapse {
+	background-color: #889abd;
+}
+
+hr {
+	border-color: black;
+	border-width: 2px;
+}
+
+/** HEADER **/
+
+/* END HEADER */
+
+/** FOOTER **/
+
+/* END FOOTER */
+
+/** HOME PAGE **/
+
+/* END HOME PAGE */
+
+/***Media Queries***/
+
+/*Extra small devices -xs- (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+@media (max-width: 575px) {
+	.row {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.col-xs-12 {
+		width: calc(100% - 24px);
+		margin: 12px;
+	}
+}
+
+/*Small devices -sm- (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	.row {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.col-sm-12 {
+		width: calc(100% - 24px);
+		margin: 12px;
+	}
+}
+
+/*Medium devices -md- (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: calc(50% - 24px);
+		margin: 12px;
+	}
+	.col-md-12 {
+		width: calc(100% - 24px);
+		margin: 12px;
+	}
+	.navbar-collapse {
+		background-color: #8c8281;
+	}
+}
+
+/*Large devices -lg- (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-lg-4 {
+		width: calc(33.33% - 24px);
+		margin: 12px;
+	}
+	.navbar-collapse {
+		background-color: #8c8281;
+	}
+}
+
+/*Extra large devices -xl- (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.col-xl-4 {
+		width: calc(33.33% - 24px);
+		margin: 12px;
+	}
+	.navbar-collapse {
+		background-color: #8c8281;
+	}
+}
